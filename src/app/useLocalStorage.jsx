@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 
-//REACT HOOk
 function useLocalStorage(itemName, initialValue) {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -30,7 +29,6 @@ function useLocalStorage(itemName, initialValue) {
     }, 1000);
   }, [syncronize]);
 
-  //Función para controlar el flujo de la app
   const saveItem = (newItem) => {
     try {
       const stringifiedItem = JSON.stringify(newItem);
