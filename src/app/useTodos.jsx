@@ -10,23 +10,10 @@ export const useTodos = () => {
     sincronizeItem: sincronizeTodos,
   } = useLocalStorage('ND__TODOS', []);
 
-  const [searchValue, setSearchValue] = useState('');
   const [openModal, setOpenModal] = useState(false);
 
   const completedTodos = todos.filter((todo) => !!todo.completed).length;
   const totalTodos = todos.length;
-
-  let searchedTodos = [];
-
-  if (!searchValue.length >= 1) {
-    searchedTodos = todos;
-  } else {
-    searchedTodos = todos.filter((todo) => {
-      const todoText = todo.text.toLowerCase();
-      const searchText = searchValue.toLowerCase();
-      return todoText.includes(searchText);
-    });
-  }
 
   const addTodos = (text) => {
     const newTodos = [...todos];

@@ -39,6 +39,7 @@ h1 {
   font-size: 3.2em;
   color: var(--accent_color);
   line-height: 1.1;
+  text-align: center;
 }
 
 button {

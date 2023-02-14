@@ -1,0 +1,9 @@
+.emptyTodo {
+  background-color: var(--secondary_color);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.emptyTodo p:first-child{
+  font-size: 3rem;
+  font-weight: bold;
+}
