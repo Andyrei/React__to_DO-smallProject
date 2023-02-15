@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { TodoHeader } from '../components/TodoHeader'
 import { TodoBrand } from '../components/TodoBrand'
 import { TodoList } from '../components/TodoList'
