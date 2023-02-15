@@ -4,5 +4,10 @@
 
 MAIN PAGE
 ![MAIN_PAGE](repo/main.png)
+![MAIN_PAGE2](repo/mainv2.png)
 
-CLICKING TASK
+CLICKING TASK:
+![createTask](repo/add_task.png)
+
+TASK CREATED: 
+![Task](repo/task.png)
