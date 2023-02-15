@@ -15,11 +15,14 @@ function App() {
   const {
     error,
     loading,
+    searchedTodos,
     completeTodos,
     deleteTodos,
     openModal,
     totalTodos,
     completedTodos,
+    searchValue,
+    setSearchValue,
     addTodos,
     setOpenModal,
     sincronizeTodos,
@@ -34,6 +37,7 @@ return (
       <TodoList
         error={error}
         loading={loading}
+        searchedTodos={searchedTodos}
         onError={() => <TodoError />}
         onLoading={() => <TodoLoading />}
         onEmptyTodos={() => <TodoEmpty />}>
