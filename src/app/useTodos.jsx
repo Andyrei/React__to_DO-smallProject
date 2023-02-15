@@ -43,6 +43,7 @@ export const useTodos = () => {
     error,
     totalTodos,
     completedTodos,
+    searchedTodos,
     completeTodos,
     addTodos,
     deleteTodos,
