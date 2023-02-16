@@ -5,7 +5,6 @@
 * At least now i have more experience with react and i learned git and github in the meantime
 
 MAIN PAGE
-![MAIN_PAGE](repo/main.png)
 ![MAIN_PAGE2](repo/mainv2.png)
 
 CLICKING TASK:
